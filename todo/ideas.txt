@@ -1,3 +1,43 @@
 #    Created:      27/ago/2021 08h47min
-#    Last Change:  27/ago/2021 08h47min
+#    Last Change: 27/ago/2021 09h36min
+--> Ideas and todo to this project
 
+~> Objectives
+    1. Analyze published papers of researches in Brazil (and their grad area) to understand how researchers networks emerge.
+    2. Understand how Brazilian unis generate interdisciplinary knowledge, if they do.
+
+~> Focal questions
+    1. Do Brazilian researchers form inter-campi and inter-universities?
+    2. If yes, how do they do it?
+    3. Do professors in Brazil change (or collaborate to other) areas of study 
+    4. Do larger connections increase the number of (sub-)areas studied by researches? * Possible paper1
+    5. Is there a correlation between the amount of money invested in science and number of papers? * Possible paper2
+
+~> What data to collect
+    1. Professor info:
+        - name, uni/campus, area of graduation, year of graduation, papers published
+    2. All papers' keywords of each professor
+    3. Brazilian (professors in Brazilian unis) co-authors on these papers
+
+~> Data collection procedures
+    1. Get the list of still working professors in Brazilian unis
+    2. Enter their Lattes and collect the doi addresses of papers
+    3. To each paper get the authors and keywords (how to???)
+    
+~> Data storage
+    1. DB with tables by uni 
+        professor_info|co-authorship|keywords
+    2. other?
+
+~> Data analysis
+    1. Nodes by professor/uni/area and connections by co-authorship
+    2. Nodes by unis and connections through their professors co-authoring papers
+    3. "Large" Areas (CNPq) with the most works on different subjects
+    4. Correlation with professors' indicators and collaborations
+    5. Number of papers by year to each uni (normalized by the # professors) and the percentual of GDP (value?)
+
+~> Tools needed
+    1. Languages we may have to work with: python (preferred) and R
+    2. WebScrapping of Sikuli (others?)
+    3. Matplotlib and Sci2 Tool to graphs and network representation
+    4. Other?
